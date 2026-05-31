@@ -9,7 +9,7 @@ test('user can log in with valid credentials', async ({ page }) => {
   await page.fill('input[name="password"]', process.env.ADMIN_PASSWORD);
   await page.click('button[type="submit"]');
 
-  await expect(page).toHaveURL('/');
+  await expect(page).toHaveURL('/login/index.html');
 });
 
 test('user sees error message with invalid credentials', async ({ page }) => {

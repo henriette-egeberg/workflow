@@ -1,28 +1,28 @@
-### workflow assignment
+# workflow assignment
 
 ## Short description of what the project does or is about.
 
-# Getting Started
+### Getting Started
 
 - Install Dependencies: npm install
 - Running the Project: npm run dev
 - Running Tests: npm run test
 
-# Environment Variables
+### Environment Variables
 
 This project uses environment variables. Create a .env file in the root of your project with the following format:
 
 - API_KEY=your-api-key-here
 - BASE_URL=https://example.com/api
 
-# Available Scripts
+### Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run test` - Run tests
 - `npm run lint` - Run ESLint
 
-# Technologies Used
+### Technologies Used
 
 - JavaScript
 - HTML
@@ -30,6 +30,6 @@ This project uses environment variables. Create a .env file in the root of your 
 - ESLint
 - Prettier
 
-# Author
+### Author
 
 Henriette Egeberg Kristensen
